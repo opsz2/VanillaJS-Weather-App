@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Weather Map</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <footer>
+      <p id="userLocation">Getting Location...</p>
+      <p id="weather"></p>
+    </footer>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <!-- remove api key before pushing to GIT -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=INSERT_API_HERE&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>
